@@ -1,14 +1,14 @@
 {
   "name": "moodlemobile",
   "version": "4.2.0",
-  "description": "The official app for Moodle.",
+  "description": "The official app for Allan Gray Orbis Foundation Online Campus.",
   "author": {
-    "name": "Moodle Pty Ltd.",
-    "email": "mobile@moodle.com"
+    "name": "Allan Gray Orbis Foundation",
+    "email": "development@allangrayorbis.org"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moodlehq/moodleapp.git"
+    "url": "https://github.com/allangrayorbis/moodleapp-42.git"
   },
   "license": "Apache-2.0",
   "licenses": [
@@ -228,7 +228,8 @@
       "cordova-sqlite-storage": {},
       "@moodlehq/phonegap-plugin-push": {
         "ANDROIDX_CORE_VERSION": "1.6.+",
-        "FCM_VERSION": "23.+"
+        "FCM_VERSION": "23.+",
+        "IOS_FIREBASE_MESSAGING_VERSION": "~> 8.1.1"
       },
       "@moodlehq/cordova-plugin-intent": {},
       "nl.kingsquare.cordova.background-audio": {},

@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="42000" id="com.moodle.moodlemobile" ios-CFBundleVersion="4.2.0.0" version="4.2.0" versionCode="42000" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Moodle</name>
-    <description>Moodle official app</description>
-    <author email="mobile@moodle.com" href="http://moodle.com">Moodle Mobile team</author>
+<widget android-versionCode="42000" id="org.allangrayorbis.onlinecampus" ios-CFBundleVersion="4.2.0.0" version="4.2.0" versionCode="42000" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>AGOFOnlineCampus</name>
+    <description>The official app for Allan Gray Orbis Foundation Online Campus.</description>
+    <author email="development@allangrayorbis.org" href="https://allangrayorbis.org">Allan Gray Orbis
+    Foundation</author>
     <content src="index.html" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />
@@ -57,7 +58,7 @@
         <preference name="AndroidWindowSplashScreenAnimatedIcon" value="resources/android/icon-foreground.png" />
         <preference name="AndroidWindowSplashScreenBackground" value="#FFFFFF" />
         <preference name="AndroidWindowSplashScreenIconBackgroundColor" value="#FFFFFF" />
-        <resource-file src="MainActivity.java" target="app/src/main/java/com/moodle/moodlemobile/MainActivity.java" />
+        <resource-file src="MainActivity.java" target="app/src/main/java/org/allangrayorbis/onlinecampus/MainActivity.java" />
         <resource-file src="google-services.json" target="app/google-services.json" />
         <resource-file src="resources/android/icon/drawable-ldpi-smallicon.png" target="app/src/main/res/mipmap-ldpi/smallicon.png" />
         <resource-file src="resources/android/icon/drawable-mdpi-smallicon.png" target="app/src/main/res/mipmap-mdpi/smallicon.png" />
@@ -215,13 +216,16 @@
             <string>We need your location so you can attach it as part of your submissions.</string>
         </edit-config>
         <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
-            <string>We need camera access to take pictures so you can attach them as part of your submissions.</string>
+            <string>We need camera access to take pictures so you can attach them as part of your
+        submissions.</string>
         </edit-config>
         <edit-config file="*-Info.plist" mode="merge" target="NSMicrophoneUsageDescription">
-            <string>We need microphone access to record sounds so you can attach them as part of your submissions.</string>
+            <string>We need microphone access to record sounds so you can attach them as part of your
+        submissions.</string>
         </edit-config>
         <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
-            <string>We need photo library access to get pictures from there so you can attach them as part of your submissions.</string>
+            <string>We need photo library access to get pictures from there so you can attach them as part
+        of your submissions.</string>
         </edit-config>
         <edit-config file="*-Info.plist" mode="merge" target="UISupportsDocumentBrowser">
             <true />
@@ -257,7 +261,8 @@
             <false />
         </config-file>
         <config-file parent="NSCrossWebsiteTrackingUsageDescription" target="*-Info.plist">
-            <string>This app needs third party cookies to correctly render embedded content from the Moodle site.</string>
+            <string>This app needs third party cookies to correctly render embedded content from the
+        Moodle site.</string>
         </config-file>
         <config-file parent="ITSAppUsesNonExemptEncryption" target="*-Info.plist">
             <false />
