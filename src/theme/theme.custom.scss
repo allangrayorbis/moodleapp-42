@@ -9,7 +9,10 @@
  * -------------------------------------------
  */
 html {
+  --brand-color: #{$brand-color};
 
+  --core-header-toolbar-background: var(--brand-color);
+  --core-header-toolbar-color: var(--white);
 }
 
 /*
@@ -17,5 +20,8 @@ html {
  * -------------------------------------------
  */
 html.dark {
+  --brand-color: #{$brand-color};
 
+  --core-header-toolbar-background: var(--brand-color);
+  --core-header-toolbar-color: var(--white);
 }
